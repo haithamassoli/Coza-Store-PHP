@@ -1,0 +1,29 @@
+.dataTable-table td,
+.dataTable-table thead th,
+.table td,
+.table thead th {
+  vertical-align: middle;
+}
+.dataTable-table:not(.table-borderless) thead th,
+.table:not(.table-borderless) thead th {
+  border-bottom: 1px solid #dedede !important;
+}
+.table-md.dataTable-table tr td,
+.table-md.dataTable-table tr th,
+.table-sm.dataTable-table tr td,
+.table-sm.dataTable-table tr th,
+.table.table-md tr td,
+.table.table-md tr th,
+.table.table-sm tr td,
+.table.table-sm tr th {
+  padding: 1rem;
+}
+.table-lg.dataTable-table tr td,
+.table-lg.dataTable-table tr th,
+.table.table-lg tr td,
+.table.table-lg tr th {
+  padding: 1.3rem;
+}
+.dataTable-container {
+  overflow-x: auto;
+}
